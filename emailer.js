@@ -87,6 +87,6 @@ const otpEmailHtml = emailer.renderEmailTemplate(
 );
 
 emailer
-	.sendEmail('zuberkhan034@gmail.com', 'Test Email', otpEmailHtml)
+	.sendEmail('YOUR RECEIVER EMAIL TEST HERE', 'Test Email', otpEmailHtml) // please replace your email to receive your test email!!!
 	.then((res) => console.log(res))
 	.catch((err) => console.log(err));
